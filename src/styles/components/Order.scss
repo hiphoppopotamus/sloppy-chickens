@@ -1,0 +1,19 @@
+@import "../vars/colors";
+
+.order {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  .order-card {
+    background-color: $cream-sloppy;
+
+    .order__img {
+      margin: 20px 20px 0;
+    }
+
+    .order__title {
+      font: 80px Specify;
+      margin: 0 20px;
+    }
+  }
+}
